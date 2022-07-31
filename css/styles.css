@@ -1,0 +1,147 @@
+.navbar {
+  width: 100%;
+  padding: 0;
+  height: 70px;
+}
+
+.logo {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+body, html {
+    height: 100%;
+    color: #C8C8C8;
+}
+
+p {
+  margin-bottom: 4rem;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("heroimage2.jpg");
+  height: 100%;
+  /*
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  */
+}
+
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: 'Dancing Script', cursive;
+  font-size: 700px;
+}
+
+.hero {
+  height: 100%;
+  width: 100%;
+}
+
+.necklace {
+  background-color: #101010;
+  height: 400px;
+  text-align: center;
+  padding: 10rem;
+  font-size: 4rem;
+}
+
+#necklaces {
+    padding: 7% 10%;
+    background-color: #101010;
+}
+
+.Earrings {
+  background-color: #181818;
+  height: 400px;
+  text-align: center;
+  padding: 10rem;
+  font-size: 4rem;
+}
+
+#earrings {
+  padding: 7% 10%;
+  background-color: #181818;
+}
+
+.earring {
+  text-align: center;
+}
+
+.ear {
+  height: 200px;
+  margin-bottom: 1rem;
+}
+
+.necklace-combo {
+  background-color: #202020;
+  height: 400px;
+  text-align: center;
+  padding: 10rem;
+  font-size: 4rem;
+}
+
+#necklace-combos {
+  padding: 7% 10%;
+  background-color: #202020;
+}
+
+.bracelets {
+  background-color: #282828;
+  height: 400px;
+  text-align: center;
+  padding: 10rem;
+  font-size: 4rem;
+}
+
+#Bracelets {
+  padding: 7% 10%;
+  background-color: #282828;
+}
+
+.other {
+  background-color: #303030;
+  height: 400px;
+  text-align: center;
+  padding: 10rem;
+  font-size: 4rem;
+}
+
+#Other {
+  padding: 7% 10%;
+  background-color: #303030;
+}
+
+/*footer*/
+
+.contact-me {
+  background-color: #383838;
+  text-align: center;
+  transition: color 0.2s;
+}
+
+.bottom-container {
+  background-color: #383838;
+  text-align: center;
+}
+
+.footer-link {
+  color: #aaaaaa;
+  margin-bottom: 20px;
+}
+
+.footer-link:hover {
+  color: #ffffff;
+}
+
+.earring:hover img {
+        transform: scale(1.5);
+      }
